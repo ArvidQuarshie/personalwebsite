@@ -8,6 +8,8 @@
     width:50%;
     height:100%;
     background-color: white;
+    float: left;
+    background-image: url("/img/images%202.jpg"); 
 }
 
 #right{
@@ -15,4 +17,10 @@
     height:100%;
     background-color: darkgrey;
     float: right;
+}
+
+#leftnav{
+    height:50%;
+    background-color: aqua;
+    width: 100%;
 }
