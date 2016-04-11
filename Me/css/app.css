@@ -9,7 +9,8 @@
     height:100%;
     background-color: white;
     float: left;
-    background-image: url("/img/images%202.jpg"); 
+    overflow: hidden;
+
 }
 
 #right{
@@ -23,4 +24,232 @@
     height:50%;
     background-color: aqua;
     width: 100%;
+}
+
+li {
+width:400px;
+background:white;
+list-style:none;
+padding:3px 5px;
+text-overflow:ellipsis;
+overflow:hidden;
+white-space: nowrap;
+opacity:.5;
+border-bottom: 1px solid #333;
+transition-property:opacity, margin-left, padding-left;
+transition-duration:.3s,.25s, .3s;
+}
+ 
+li:hover {
+text-overflow:;
+overflow:visible;
+opacity:1;
+cursor:pointer;
+margin-left:12px;
+padding-left:12px;
+}
+
+/*******************************
+COLORS:
+Deep Purple #2F2933
+Teal #01A2A6
+Light Teal #29D9C2
+Light Green #BDF271
+Dark Cream #FFFFA6
+********************************/
+
+/*******************************
+FONTS:
+font-family: 'Clicker Script', cursive;
+font-family: 'Gruppo', cursive;
+********************************/
+
+/*******************************
+BODY
+********************************/
+
+body {
+  background-color: #2F2933;
+}
+
+h1 {
+  font-family: 'Gruppo', cursive;
+  font-size: 75px;
+  color: #FFFFA6;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.card {
+  margin: 0 auto;
+  background-color: white;
+  width: 800px;
+  height: 50%;
+  border: 15px double #FFFFA6;
+}
+
+/*******************************
+CARD
+********************************/
+.head_shot {
+  margin-top: 20px;
+}
+
+.head_shot img {
+  height: 125px;
+  border: 2px solid;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Clicker Script', cursive;
+  font-size: 45px;
+  color: #2F2933;
+  text-align: center;
+  margin: 0;
+}
+
+.line {
+  border-top: 1px solid #FFFFA6;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/*******************************
+FADE IN KEYFRAME
+********************************/
+
+.card {
+  opacity: 0;
+    -webkit-animation: fade-in 3s ease-in 1;
+    -moz-animation: fade-in 3s ease-in 1;
+    -o-animation: fade-in 3s ease-in 1;
+    animation: fade-in 3s ease-in 1;
+}
+
+@-webkit-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.card {
+  opacity: 1;
+}
+
+/*******************************
+FADE IN TRANSITION
+********************************/
+
+.fade {
+  opacity:0.7;
+  transition: opacity 2s ease;
+}
+
+.fade:hover {
+  opacity:1;
+}
+
+/*******************************
+ROTATE TRANSITION
+********************************/
+.rotate {
+  display: inline-block;
+}
+
+.rotate:hover {
+  cursor: none;
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
+/*******************************
+ROLLING TEXT KEYFRAME
+********************************/
+
+.text_scroll p {
+  font-family: 'Gruppo', cursive;
+  height: 20px;
+  float: left;
+  white-space: nowrap;
+  position: relative;
+  font-size: 55px;
+  color: #2F2933;
+  font-weight: bold;
+  margin-top: 75px;
+}
+
+.text_scroll {
+  max-height: 50px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 50px;
+  float: left;
+}
+
+.scrolling_words {
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  padding-left: 20px;
+  margin-top: 78px;
+}
+
+.scrolling_words  p {
+  font-family: 'Gruppo', cursive;
+  margin: 0 0 26px;
+  color: #2F2933;
+  position: relative;
+  white-space: nowrap;
+  -webkit-animation: move 8s 1s infinite;
+  -moz-animation: move 8s 1s infinite;
+  -o-animation: move 8s 1s infinite;
+  animation: move 8s 1s infinite;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+@-webkit-keyframes move {
+  0%  { top:  0px; }
+  20% { top: -45px; }
+  40% { top: -90px; }
+  60% { top: -175px; }
+  60% { top: -140px; }
+  80% { top: -0px; }
+  80% { top: -0px; }
+}
+
+/*******************************
+GROW TRANSITION
+********************************/
+
+.octocat {
+  clear: both;
+}
+
+.octocat img {
+  height: 50px;
+}
+
+.octocat {
+  width: 50px;
+  display: block;
+  margin: 175px 0 0 375px;
+  padding-top: 33px;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  transition-duration: 1s;
+}
+#card{
+    
+    width:50%;
+    height:100%;
 }
