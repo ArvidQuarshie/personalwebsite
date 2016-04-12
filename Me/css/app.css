@@ -2,6 +2,7 @@
     width:100%;
     height:100%;
     background-color:black;
+    text-align: center;
 }
 
 #left{
@@ -84,9 +85,10 @@ h1 {
 .card {
   margin: 0 auto;
   background-color: white;
-  width: 800px;
+  width: 50%;
   height: 50%;
-  border: 15px double #FFFFA6;
+    opacity: 0.9%;
+
 }
 
 /*******************************

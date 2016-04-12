@@ -1,0 +1,36 @@
+body{
+  
+}
+
+#header{
+    background-color: #2c293c;
+    height:20%;
+    text-align: center;
+    color:goldenrod;
+    width:70%;
+    margin: auto;
+    
+}
+#potrait{
+background-color: grey;
+    height:100%;
+    width:100%;
+    opacity: 0.7;
+    color:white;
+}
+#main{
+  
+    height:100%;
+    width:70%;
+    text-align: center;
+    margin:auto;
+     background-image: url("/assets/bg.jpg");
+}
+
+#footer{
+    width:70%;
+    margin:auto;
+    height:40%;
+    background-color: darkgrey;
+    color:white;
+}
