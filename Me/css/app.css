@@ -1,5 +1,5 @@
 
-video.fullscreen {
+/*video.fullscreen {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -10,6 +10,7 @@ video.fullscreen {
   z-index: -100;
   transform: translate(-50%, -50%);
 }
+*/
 #footer{
     height:30%;
     background-color: white;
@@ -31,7 +32,7 @@ p{
     background-image:
         position:absolute;
     z-index:1;
-    background-image:url(/container2.jpg);
+
 }
 
 #left{
