@@ -17,6 +17,7 @@ p{
     background-color:black;
     text-align: center;
     overflow: hidden;
+    background-image: url(/container.jpg);
 }
 
 #left{
