@@ -210,10 +210,10 @@ ROLLING TEXT KEYFRAME
 }
 
 .text_scroll {
-  max-height: 50px;
+  max-height: 100%;
   max-width: 100%;
   margin: 0 auto;
-  padding-left: 50px;
+  padding-left: 5%;
   float: left;
 }
 
