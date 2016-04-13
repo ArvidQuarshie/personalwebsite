@@ -199,19 +199,19 @@ ROLLING TEXT KEYFRAME
 
 .text_scroll p {
   font-family: 'Gruppo', cursive;
-  height: 40px;
+  height: 50%;
   float: left;
   white-space: nowrap;
   position: relative;
   font-size: 55px;
   color: #2F2933;
   font-weight: bold;
-  margin-top: 75px;
+  margin-top: 20%;
 }
 
 .text_scroll {
   max-height: 50px;
-  max-width: 700px;
+  max-width: 100%;
   margin: 0 auto;
   padding-left: 50px;
   float: left;
