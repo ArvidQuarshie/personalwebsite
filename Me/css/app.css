@@ -4,6 +4,7 @@
     background-color: grey;
 
     margin-left:auto;
+    margin-top: 50%;
 
 }
 
@@ -15,6 +16,7 @@ p{
     height:100%;
     background-color:black;
     text-align: center;
+    overflow: hidden;
 }
 
 #left{
