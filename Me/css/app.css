@@ -1,7 +1,7 @@
 
 #footer{
     height:30%;
-    background-color: grey;
+    background-color: white;
 
     margin-left:auto;
     margin-top: 40%;
@@ -22,7 +22,7 @@ p{
 #left{
     width:50%;
     height:100%;
-    background-color: grey;
+    background-color: white;
     float: left;
     overflow: hidden;
     margin-top: %;
@@ -32,7 +32,7 @@ p{
 #right{
     width:50%;
     height:100%;
-    background-color: darkgrey;
+    background-color: white;
     float: right;
 }
 
