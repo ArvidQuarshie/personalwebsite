@@ -9,7 +9,7 @@
 }
 
 p{
-    font-family:Indie+Flower;
+    font-family:"Indie+Flower";
 }
 #container{
     width:100%;
@@ -17,7 +17,10 @@ p{
     background-color:black;
     text-align: center;
     overflow: hidden;
-    background-image: url(/container.jpg);
+    background-image:
+        position:absolute;
+    z-index:1;
+    background-image:url(/container2.jpg);
 }
 
 #left{
@@ -92,7 +95,7 @@ body {
 
 h1 {
   font-family: 'Gruppo', cursive;
-  font-size: 75px;
+  font-size: 55px;
   color: lightgrey;
   text-align: center;
   margin-top: 30px;
@@ -182,7 +185,7 @@ ROLLING TEXT KEYFRAME
 
 .text_scroll p {
   font-family: 'Gruppo', cursive;
-  height: 20px;
+  height: 40px;
   float: left;
   white-space: nowrap;
   position: relative;
