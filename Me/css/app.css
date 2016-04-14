@@ -52,6 +52,7 @@ p{
     background-color: white;
     float: right;
     opacity: 0.1%;
+    font-size: 14px;
 }
 
 #leftnav{
@@ -108,6 +109,7 @@ BODY
 body {
   background-color: #2F2933;
     link="coral";
+    font-size: 14px:
 }
 
 h1 {
@@ -142,7 +144,7 @@ h2 {
 }
 
 .line {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   max-width: 100%;
   margin: 0 auto;
   margin-top: 1%;
@@ -189,12 +191,7 @@ ROTATE TRANSITION
   display: inline-block;
 }
 
-.rotate:hover {
-  cursor: none;
-    -webkit-transform: rotateZ(-30deg);
-    -ms-transform: rotateZ(-30deg);
-    transform: rotateZ(-30deg);
-}
+
 
 /*******************************
 ROLLING TEXT KEYFRAME
@@ -238,7 +235,7 @@ ROLLING TEXT KEYFRAME
   -moz-animation: move 8s 1s infinite;
   -o-animation: move 8s 1s infinite;
   animation: move 8s 1s infinite;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 2px;
 }
 
@@ -256,20 +253,7 @@ ROLLING TEXT KEYFRAME
 GROW TRANSITION
 ********************************/
 
-.octocat {
-  clear: both;
-}
 
-.octocat img {
-  height: 50px;
-}
-
-.octocat {
-  width: 50px;
-  display: block;
-  margin: 175px 0 0 375px;
-  padding-top: 33px;
-}
 
 .grow:hover {
   -webkit-transform: scale(1.5);
