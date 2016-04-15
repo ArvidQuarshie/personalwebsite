@@ -11,6 +11,10 @@
   transform: translate(-50%, -50%);
 }
 */
+#lyne{
+    width:70%;
+    color: black;
+}
 #footer{
     height:30%;
     background-color: white;
