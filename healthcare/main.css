@@ -147,3 +147,9 @@ input:checked ~ .radio {
 #header{
     height:20%;
 }
+
+#services{
+    height:50%;
+    background-color: red
+        width:100%;
+}
