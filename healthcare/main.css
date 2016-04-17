@@ -144,12 +144,18 @@ input:checked ~ .radio {
   width: 100%;
 
 }
-#header{
+#top{
     height:20%;
+    width: 100%;
 }
 
 #services{
     height:50%;
     background-color: red
         width:100%;
+}
+
+#landingpage{
+    width:100%;
+    height:100%;
 }
