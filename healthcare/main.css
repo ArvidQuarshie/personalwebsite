@@ -5,7 +5,7 @@ body{
     align-content: center;
 }
 #menu{
-    height: 100%px;
+    height: 100%;
 
 }
 .container{
@@ -52,7 +52,7 @@ body{
 }
 .col8{
     width: 100%;
-    background-color:cyan;
+    background-color:gainsboro;
 
 
 }
@@ -141,6 +141,9 @@ input:checked ~ .radio {
 }
 
 .nav {
-  width: 120px;
-  margin: 0 auto;
+  width: 100%;
+
+}
+#header{
+    height:20%;
 }
