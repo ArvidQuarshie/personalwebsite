@@ -272,3 +272,9 @@ GROW TRANSITION
 p{
     font-size: 40px:
 }
+
+#contactme{
+    height:40%;
+    width:100%;
+    background-color: red;
+}
