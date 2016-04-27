@@ -9,7 +9,7 @@
 }
 
 .container{
-    background-image: url(../img/landing.jpg);
+    background-image: url(../img/white3.jpg);
     height:100%;
     width:100%;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@
     width:50%:
    float:left;
     opacity: 0.7;
-    background-image: url(../img/landing.jpg);
+    background-image:
 
 
 
@@ -32,7 +32,7 @@
     width:50%;
     float:right;
     opacity: 0.7;
-    background-image: url(../img/landing2.jpg);
+    background-image:
 }
 
 #wrapper{
