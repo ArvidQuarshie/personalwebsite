@@ -43,3 +43,10 @@
 h1,h2,h3,h4,h5,h6{
    font-family: 'Rock Salt', cursive;
 }
+#skills{
+ background-image: url(../img/white3.jpg);
+    height:50%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
