@@ -240,11 +240,7 @@ h1,h2,h3,h4,h5,h6{
       translate(9.95em, 9.55em);
 }
 
-body {
-	background: #f2f2f2;
-	font-size: 1.25em;
-	font-family: 'Raleway', sans-serif;
-}
+
 
 nav {
 	margin: 100px auto;
