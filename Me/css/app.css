@@ -32,7 +32,8 @@
     width:50%;
     float:right;
     opacity: 0.7;
-    background-image:
+    background-image:#D3D3D3
+        color:black;
 }
 
 #wrapper{
@@ -271,7 +272,7 @@ nav ul li {
 	float: left;
 	width: 500px;
 	text-align: left;
-	border-bottom: 3px solid #2ecc71;
+	border-bottom: 3px solid #D3D3D3;
 }
 
 nav ul li:hover {
