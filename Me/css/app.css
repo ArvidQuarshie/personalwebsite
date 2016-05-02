@@ -1,9 +1,4 @@
 
-#social{
-    height:100%;
-    width:100%;
-}
-
 .container{
     background-image: url(../img/white3.jpg);
     height:100%;
@@ -12,37 +7,11 @@
     background-size: 100%;
 }
 
-#left{
-    height:100%;
-    width:50%:
-   float:left;
-    opacity: 0.7;
-    background-image:
 
 
 
-}
 
-#right{
-    height:100%;
-    width:50%;
-    float:right;
-    opacity: 0.7;
-    background-image:#D3D3D3
-        color:black;
-}
-
-#wrapper{
-    height:100%
-        width:100%;
-}
 h1,h2,h3,h4,h5,h6{
    font-family: 'Rock Salt', cursive;
 }
-#skills{
-background-color: white;
-    height:50%;
-    width:100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
+
