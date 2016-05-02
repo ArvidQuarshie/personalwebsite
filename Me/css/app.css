@@ -9,7 +9,7 @@
 #landing{
     background-image: url(../img/white3.jpg);
     max-height: 100%;
-    max-width:1200px;
+    width:100%;
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
