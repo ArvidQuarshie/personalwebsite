@@ -6,7 +6,14 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+#landing{
+    background-image: url(../img/white3.jpg);
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
 
+}
 
 
 
