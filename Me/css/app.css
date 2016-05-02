@@ -1,7 +1,3 @@
-#skills{
-    height:70%;
-    width:100%;
-}
 
 #social{
     height:100%;
@@ -44,7 +40,7 @@ h1,h2,h3,h4,h5,h6{
    font-family: 'Rock Salt', cursive;
 }
 #skills{
- background-image: url(../img/white3.jpg);
+background-color: white;
     height:50%;
     width:100%;
     background-repeat: no-repeat;
