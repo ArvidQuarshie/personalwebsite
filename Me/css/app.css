@@ -1,6 +1,6 @@
 
 .container{
-    background-image: url(../img/white3.jpg);
+  /*  background-image: url(../img/white3.jpg);*/
     height:100%;
     width:100%;
     background-repeat: no-repeat;
@@ -8,12 +8,19 @@
 }
 #landing{
     background-image: url(../img/white3.jpg);
-    height:100%;
-    width:100%;
+    max-height: 100%;
+    max-width:1200px;
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
 
+}
+
+.portfolio{
+    height:50%;
+background-color: white;
+    width:100%;
+    text-align: center;
 }
 
 .pulse {
