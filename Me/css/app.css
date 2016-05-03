@@ -13,7 +13,12 @@
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
-
+     margin: 0 auto;
+}
+.skills{
+    height: 50%;
+    width:100%;
+    text-align:center;
 }
 
 .contacts{

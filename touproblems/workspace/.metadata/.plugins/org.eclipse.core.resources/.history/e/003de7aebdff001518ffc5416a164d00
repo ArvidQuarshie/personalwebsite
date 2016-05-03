@@ -1,0 +1,30 @@
+
+public class Soldier extends Ennemy{
+	
+	private int hitpoint;
+	private int lives;
+
+	public Soldier(int points,int life){
+		this.hitpoint=points;
+		this.lives=life;
+	
+	}
+
+
+	public int getHitpoint() {
+		return hitpoint;
+	}
+
+	public int getLives() {
+		return lives;
+	}
+
+	public void setHitpoint(int hitpoint) {
+		this.hitpoint = hitpoint;
+	}
+
+	public void setLives(int lives) {
+		this.lives = lives;
+	}
+
+}

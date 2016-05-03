@@ -1,0 +1,46 @@
+
+public class player {
+	String handlename;
+	int lives,score,level;
+	
+	public int getLives(){
+		return lives;
+	}
+		
+		public int getScore()
+		{
+			
+			return score;
+		}
+		public int getLevel(){
+			
+			return level;
+		}
+		public String getHandlename(){
+			
+			return handlename;
+		}
+	
+		public int setLives(int lives)
+		{
+			this.lives=lives;
+			
+		}
+		public int setScore(int score){
+			
+			this.score=score;
+		}
+		public String setHandlename(String handlename){
+			
+			this.handlename=handlename;
+			
+		}
+		
+	
+}
+	
+		
+	}
+
+
+}

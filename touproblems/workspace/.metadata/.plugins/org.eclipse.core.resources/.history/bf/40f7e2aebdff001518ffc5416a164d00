@@ -1,0 +1,18 @@
+
+public class Demo {
+
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		Ennemy saj=new Ennemy();
+		
+	Soldier jeshi = new Soldier();
+	
+	supersoldier sas =new supersoldier();
+	
+	supersoldier.takedamage(2000)=x;
+	
+		System.out.println(x);
+
+	}
+
+}

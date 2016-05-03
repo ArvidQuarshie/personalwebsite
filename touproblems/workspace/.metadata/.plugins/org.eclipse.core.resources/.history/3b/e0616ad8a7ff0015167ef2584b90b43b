@@ -1,0 +1,19 @@
+
+public class Soldier extends Ennemy{
+	
+	private int hitpoint;
+	private int lives;
+
+	public Soldier(int hitpoint,int lives){
+		
+		this.hitpoint=hitpoint;
+		this.lives=lives;
+		
+		
+	}
+
+	public Soldier() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

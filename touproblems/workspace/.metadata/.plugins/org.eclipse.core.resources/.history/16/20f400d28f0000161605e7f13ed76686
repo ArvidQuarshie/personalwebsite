@@ -1,0 +1,27 @@
+
+public class supersoldier extends Ennemy {
+	
+	 supersoldier(int points, int life) {
+		super(points, life);
+		// TODO Auto-generated constructor stub
+	}
+
+	int lives;
+	static int hitpoint;
+	
+	super.hitpoint=hitpoint;
+	super.lives=lives;
+	
+	public static int takeDamage (int damage)
+	{
+		
+		int remainHits;
+		int hitpoints;
+		remainHits= (hitpoints-damage)/2;
+		hitpoint=remainHits;
+		
+	}
+
+
+}
+}

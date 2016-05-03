@@ -1,0 +1,20 @@
+
+public class supersoldier extends Ennemy {
+	
+	 int lives,hitpoint;
+	
+	this.hitpoint=hitpoint;
+	this.lives=lives;
+	
+	public int takeDamage(int damage)
+	{
+		
+		int remainHits;
+		remainHits= (hitpoint-damage)/2;
+		hitpoint=remainHits;
+		
+	}
+
+
+}
+}
