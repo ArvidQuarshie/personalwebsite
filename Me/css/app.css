@@ -240,9 +240,9 @@ h1,h2,h3,h4,h5,h6{
 
 article {
   color: #e6e6e6;
-  font-family: Verdana, sans-serif;
-  height: 500px;
-  width: 465px;
+
+  height: 400px;
+  width: 400px;
   overflow: hidden;
   position: relative;
 }
