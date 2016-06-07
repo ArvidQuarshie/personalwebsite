@@ -237,3 +237,44 @@ h1,h2,h3,h4,h5,h6{
  }
 
 }
+
+article {
+  color: #e6e6e6;
+  font-family: Verdana, sans-serif;
+  height: 500px;
+  width: 465px;
+  overflow: hidden;
+  position: relative;
+}
+
+article:hover .texto{
+    left: 0px;
+}
+
+article .texto {
+    background: rgba(100,100,100,0.5);
+  	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	  box-sizing: border-box;         /* Opera/IE 8+ */
+    float: left;
+    height: 500px;
+    left: -465px;
+    opacity: 1;
+    padding: 5em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 465px;
+    -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+article .texto a {
+  color: #fff;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
