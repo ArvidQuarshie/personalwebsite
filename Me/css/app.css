@@ -16,7 +16,7 @@
      margin: 0 auto;
 }
 .skills{
-    height: 50%;
+    height: 70%;
     width:100%;
     text-align:center;
 }
@@ -28,10 +28,23 @@
     text-align: center;
 }
 .portfolio{
-    height:50%;
+    height:70%;
 background-color: white;
     width:100%;
     text-align: center;
+}
+
+.overlay{
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity: 0.7;
+    color:white;
+
+
+}
+.hey{
+
 }
 
 .pulse {
